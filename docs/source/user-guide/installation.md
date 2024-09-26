@@ -30,12 +30,16 @@ Make sure the following requirements are met and software installed on your mach
 - 3.3
 - 3.4
 - 3.5
+- 4.0 (*experimental support*)
 
 ## Requirements
 
-- [Apache Spark supported by Comet](#supported-apache-spark-versions)
-- JDK 8 and up
-- GLIBC 2.17 (Centos 7) and up
+- **Apache Spark 3.3, 3.4, or 3.5**
+  - **Supported Java Versions**: JDK 8 and above
+  - **GLIBC**: 2.17 (CentOS 7) and above
+- **Apache Spark 4.0** *(Experimental Support)*
+  - **Supported Java Versions**: JDK 11 and above (JDK 8 is not supported)
+  - **GLIBC**: 2.17 (CentOS 7) and above
 
 ## Deploying to Kubernetes
 
